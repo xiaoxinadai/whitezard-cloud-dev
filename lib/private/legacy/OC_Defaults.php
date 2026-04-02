@@ -34,21 +34,21 @@ class OC_Defaults {
 		$config = Server::get(IConfig::class);
 		$serverVersion = Server::get(ServerVersion::class);
 
-		$this->defaultEntity = 'Nextcloud'; /* e.g. company name, used for footers and copyright notices */
-		$this->defaultName = 'Nextcloud'; /* short name, used when referring to the software */
-		$this->defaultTitle = 'Nextcloud'; /* can be a longer name, for titles */
-		$this->defaultBaseUrl = 'https://nextcloud.com';
-		$this->defaultSyncClientUrl = $config->getSystemValue('customclient_desktop', 'https://nextcloud.com/install/#install-clients');
-		$this->defaultiOSClientUrl = $config->getSystemValue('customclient_ios', 'https://geo.itunes.apple.com/us/app/nextcloud/id1125420102?mt=8');
-		$this->defaultiTunesAppId = $config->getSystemValue('customclient_ios_appid', '1125420102');
-		$this->defaultAndroidClientUrl = $config->getSystemValue('customclient_android', 'https://play.google.com/store/apps/details?id=com.nextcloud.client');
-		$this->defaultFDroidClientUrl = $config->getSystemValue('customclient_fdroid', 'https://f-droid.org/packages/com.nextcloud.client/');
-		$this->defaultDocBaseUrl = 'https://docs.nextcloud.com';
+		$this->defaultEntity = 'WhitzardCloud'; /* e.g. company name, used for footers and copyright notices */
+		$this->defaultName = 'WhitzardCloud'; /* short name, used when referring to the software */
+		$this->defaultTitle = 'WhitzardCloud'; /* can be a longer name, for titles */
+		$this->defaultBaseUrl = 'https://whitzardcloud.com';
+		$this->defaultSyncClientUrl = $config->getSystemValue('customclient_desktop', 'https://whitzardcloud.com/install/#install-clients');
+		$this->defaultiOSClientUrl = $config->getSystemValue('customclient_ios', 'https://geo.itunes.apple.com/us/app/whitzardcloud/id1234567890?mt=8');
+		$this->defaultiTunesAppId = $config->getSystemValue('customclient_ios_appid', '1234567890');
+		$this->defaultAndroidClientUrl = $config->getSystemValue('customclient_android', 'https://play.google.com/store/apps/details?id=com.whitzardcloud.client');
+		$this->defaultFDroidClientUrl = $config->getSystemValue('customclient_fdroid', 'https://f-droid.org/packages/com.whitzardcloud.client/');
+		$this->defaultDocBaseUrl = 'https://docs.whitzardcloud.com';
 		$this->defaultDocVersion = $serverVersion->getMajorVersion(); // used to generate doc links
 		$this->defaultColorBackground = '#00679e';
 		$this->defaultColorPrimary = '#00679e';
 		$this->defaultTextColorPrimary = '#ffffff';
-		$this->defaultProductName = 'Nextcloud';
+		$this->defaultProductName = 'WhitzardCloud';
 
 		$themePath = OC::$SERVERROOT . '/themes/' . OC_Util::getTheme() . '/defaults.php';
 		if (file_exists($themePath)) {
