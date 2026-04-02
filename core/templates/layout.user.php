@@ -66,7 +66,7 @@ p($theme->getTitle());
 			<div class="header-start">
 				<a href="<?php print_unescaped($_['logoUrl'] ?: link_to('', 'index.php')); ?>"
 					aria-label="<?php p($l->t('Go to %s', [$_['logoUrl'] ?: $_['defaultAppName']])); ?>"
-					id="nextcloud">
+					id="whitzardcloud">
 					<div class="logo logo-icon"></div>
 				</a>
 

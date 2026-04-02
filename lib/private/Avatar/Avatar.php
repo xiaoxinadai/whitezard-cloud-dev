@@ -287,6 +287,6 @@ abstract class Avatar implements IAvatar {
 	 * This is used to determine the font to use for the avatar text (e.g. CJK characters).
 	 */
 	protected function getAvatarLanguage(): string {
-		return $this->config->getSystemValueString('default_language', 'en');
+		return $this->config->getSystemValueString('default_language', 'zh_CN');
 	}
 }

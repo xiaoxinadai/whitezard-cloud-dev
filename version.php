@@ -15,7 +15,7 @@ $OC_Version = [33, 0, 0, 16];
 $OC_VersionString = '33.0.0';
 
 $OC_VersionCanBeUpgradedFrom = [
-	'nextcloud' => [
+	'whitzardcloud' => [
 		'32.0' => true,
 		'33.0' => true,
 	],
@@ -34,4 +34,4 @@ $OC_Channel = 'git';
 $OC_Build = '';
 
 // Vendor of this package
-$vendor = 'nextcloud';
+$vendor = 'whitzardcloud';

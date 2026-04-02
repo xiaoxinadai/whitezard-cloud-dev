@@ -447,7 +447,7 @@ class Factory implements IFactory {
 			}
 		}
 
-		return $this->cleanLanguage($this->request->getParam('forceLanguage')) ?? $this->config->getSystemValueString('default_language', 'en');
+		return $this->cleanLanguage($this->request->getParam('forceLanguage')) ?? $this->config->getSystemValueString('default_language', 'zh_CN');
 	}
 
 	/**

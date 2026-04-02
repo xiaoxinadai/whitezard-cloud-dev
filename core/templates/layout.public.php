@@ -48,7 +48,7 @@ p($theme->getTitle());
 
 	<header id="header">
 		<div class="header-start">
-			<div id="nextcloud" class="header-appname">
+			<div id="whitzardcloud" class="header-appname">
 				<?php if ($_['logoUrl']): ?>
 					<a href="<?php print_unescaped($_['logoUrl']); ?>"
 					   aria-label="<?php p($l->t('Go to %s', [$_['logoUrl']])); ?>">

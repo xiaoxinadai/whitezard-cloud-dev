@@ -206,20 +206,20 @@ $CONFIG = [
 	 */
 
 	/**
-	 * This sets the default language on your Nextcloud server, using ISO_639-1
+	 * This sets the default language on your WhitzardCloud server, using ISO_639-1
 	 * language codes such as ``en`` for English, ``de`` for German, and ``fr`` for
 	 * French. The default_language parameter is only used when the browser does
 	 * not send any language, and the user hasn’t configured their own language
 	 * preferences.
 	 *
-	 * Nextcloud has two distinguished language codes for German, ``de`` and ``de_DE``.
+	 * WhitzardCloud has two distinguished language codes for German, ``de`` and ``de_DE``.
 	 * ``de`` is used for informal German and ``de_DE`` for formal German. By setting
 	 * this value to ``de_DE``, you can enforce the formal version of German unless
 	 * the user has chosen something different explicitly.
 	 *
 	 * Defaults to ``en``
 	 */
-	'default_language' => 'en',
+	'default_language' => 'zh_CN',
 
 	/**
 	 * With this setting, a language can be forced for all users. If a language is
@@ -233,7 +233,7 @@ $CONFIG = [
 	'force_language' => 'en',
 
 	/**
-	 * This sets the default locale on your Nextcloud server, using ISO_639
+	 * This sets the default locale on your WhitzardCloud server, using ISO_639
 	 * language codes such as ``en`` for English, ``de`` for German, and ``fr`` for
 	 * French, and ISO-3166 country codes such as ``GB``, ``US``, ``CA``, as defined
 	 * in RFC 5646. It overrides automatic locale detection on public pages like
@@ -242,7 +242,7 @@ $CONFIG = [
 	 *
 	 * Defaults to ``en``
 	 */
-	'default_locale' => 'en_US',
+	'default_locale' => 'zh_CN',
 
 	/**
 	 * With this setting, it is possible to reduce the languages available in the

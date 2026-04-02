@@ -75,17 +75,17 @@ class LanguageIterator implements ILanguageIterator {
 				$this->next();
 				// no break
 			case 4:
-				return $this->config->getSystemValueString('default_language', 'en');
+				return $this->config->getSystemValueString('default_language', 'zh_CN');
 				/** @noinspection PhpMissingBreakStatementInspection */
 			case 5:
-				$defaultLang = $this->config->getSystemValueString('default_language', 'en');
+				$defaultLang = $this->config->getSystemValueString('default_language', 'zh_CN');
 				if (($truncated = $this->getTruncatedLanguage($defaultLang)) !== $defaultLang) {
 					return $truncated;
 				}
 				$this->next();
 				// no break
 			default:
-				return 'en';
+				return 'zh_CN';
 		}
 	}
 
