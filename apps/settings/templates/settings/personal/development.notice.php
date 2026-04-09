@@ -8,7 +8,7 @@
 	<p>
 		<a href="<?php p($_['reasons-use-nextcloud-pdf-link']); ?>" id="open-reasons-use-nextcloud-pdf" class="link-button" target="_blank">
 			<span class="icon-file-text" aria-hidden="true"></span>
-			<?php p($l->t('Reasons to use Nextcloud in your organization'));?>
+			<?php p($l->t('Reasons to use WhitzardCloud in your organization'));?>
 		</a>
 	</p>
 	<p>
@@ -25,7 +25,7 @@
 				'<a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noreferrer noopener">',
 				'</a>',
 			],
-			$l->t('Developed by the {communityopen}Nextcloud community{linkclose}, the {githubopen}source code{linkclose} is licensed under the {licenseopen}AGPL{linkclose}.')
+			$l->t('Developed by the {communityopen}WhitzardCloud community{linkclose}, the {githubopen}source code{linkclose} is licensed under the {licenseopen}AGPL{linkclose}.')
 		)); ?>
 	</p>
 
