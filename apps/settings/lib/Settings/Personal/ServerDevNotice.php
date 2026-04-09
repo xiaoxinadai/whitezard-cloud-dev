@@ -59,11 +59,7 @@ class ServerDevNotice implements ISettings {
 	 * @return string|null the section ID, e.g. 'sharing'
 	 */
 	public function getSection(): ?string {
-		if ($this->registry->delegateHasValidSubscription()) {
-			return null;
-		}
-
-		return 'personal-info';
+		return null;
 	}
 
 	/**
