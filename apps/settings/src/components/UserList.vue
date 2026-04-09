@@ -89,7 +89,7 @@ const newUser = Object.freeze({
 	subAdminsGroups: [],
 	quota: defaultQuota,
 	language: {
-		code: 'en',
+		code: 'zh_CN',
 		name: t('settings', 'Default language'),
 	},
 })
