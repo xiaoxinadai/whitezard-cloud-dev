@@ -84,7 +84,7 @@ async function createFederatedShare() {
 		}
 	} catch (error) {
 		logger.error('Failed to create federated share', { error })
-		showError(t('files_sharing', 'Failed to add the public link to your Nextcloud'))
+		showError(t('files_sharing', 'Failed to add the public link to your WhitzardCloud'))
 	} finally {
 		loading.value = false
 	}

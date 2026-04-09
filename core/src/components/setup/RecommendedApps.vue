@@ -86,7 +86,7 @@ const recommended = {
 		icon: imagePath('core', 'apps/spreed.svg'),
 	},
 	richdocuments: {
-		name: 'Nextcloud Office',
+		name: 'WhitzardCloud Office',
 		description: t('core', 'Collaborative documents, spreadsheets and presentations, built on Collabora Online.'),
 		icon: imagePath('core', 'apps/richdocuments.svg'),
 	},

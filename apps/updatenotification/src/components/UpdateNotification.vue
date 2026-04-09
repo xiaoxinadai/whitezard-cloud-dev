@@ -298,9 +298,9 @@ export default {
 				text: t('updatenotification', 'Enterprise'),
 				longtext: t('updatenotification', 'For enterprise use. Provides always the latest patch level, but will not update to the next major release immediately.')
 					+ ' '
-					+ t('updatenotification', 'That update happens once {vendor} has done additional hardening and testing for large-scale and mission-critical deployments.', { vendor: 'Nextcloud GmbH' })
+					+ t('updatenotification', 'That update happens once {vendor} has done additional hardening and testing for large-scale and mission-critical deployments.', { vendor: 'WhitzardCloud' })
 					+ ' '
-					+ t('updatenotification', 'This channel is only available to customers and provides the {enterprise} package.', { enterprise: 'Nextcloud Enterprise' }),
+					+ t('updatenotification', 'This channel is only available to customers and provides the {enterprise} package.', { enterprise: 'WhitzardCloud Enterprise' }),
 				icon: IconStar,
 				active: this.currentChannel === 'enterprise',
 				disabled: !this.hasValidSubscription,

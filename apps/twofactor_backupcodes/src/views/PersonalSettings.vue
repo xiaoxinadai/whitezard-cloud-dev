@@ -16,7 +16,7 @@ import { print } from '../service/PrintService.js'
 import { useStore } from '../store/index.ts'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const instanceName = (getCapabilities() as any).theming.name ?? 'Nextcloud'
+const instanceName = (getCapabilities() as any).theming.name ?? 'WhitzardCloud'
 
 const store = useStore()
 const generatingCodes = ref(false)
