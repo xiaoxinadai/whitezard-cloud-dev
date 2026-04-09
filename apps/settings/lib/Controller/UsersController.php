@@ -239,7 +239,7 @@ class UsersController extends Controller {
 		$serverData['allowUnlimitedQuota'] = $allowUnlimitedQuota;
 		$serverData['userCount'] = $userCount;
 		$serverData['languages'] = $languages;
-		$serverData['defaultLanguage'] = $this->config->getSystemValue('default_language', 'en');
+		$serverData['defaultLanguage'] = $this->config->getSystemValue('default_language', 'zh_CN');
 		$serverData['forceLanguage'] = $this->config->getSystemValue('force_language', false);
 		// Settings
 		$serverData['defaultQuota'] = $defaultQuota;

@@ -231,8 +231,8 @@ class Factory implements IFactory {
 			}
 		}
 
-		// Step 5: fall back to English
-		return 'en';
+		// Step 5: fall back to Chinese
+		return 'zh_CN';
 	}
 
 	public function findGenericLanguage(?string $appId = null): string {
@@ -248,8 +248,8 @@ class Factory implements IFactory {
 			return $defaultLanguage;
 		}
 
-		// Step 3: fall back to English
-		return 'en';
+		// Step 3: fall back to Chinese
+		return 'zh_CN';
 	}
 
 	/**
